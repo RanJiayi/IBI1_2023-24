@@ -1,5 +1,4 @@
 Hello. 
 My name is Ran Jiayi.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
+I like drinking milktea.
 I am happy that I can push my repo from Visual Studio Code to GitHub
