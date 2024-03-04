@@ -1,7 +1,7 @@
 #day 1
-x=5
-#at 5% density
 n=1
+#at 5% density
+x=5
 #repeat until the density passes 90%
 while x<90:
 #the cell line doubles in density everyday
