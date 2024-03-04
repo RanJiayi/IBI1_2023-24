@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:
+# Answer:Calculate the sum of 100 randomly generated numbers within the interval (1,10)
 
 # Import libraries
 # randint allows drawing a random number,
@@ -12,8 +12,10 @@ from math import ceil
 
 progress=0
 total_random_number=0
+#Repeat 100 times
 while progress<100:
 	progress+=1
+#Calculate the sum of randomly generated n
 	n = randint(1,10)
 	total_random_number = total_random_number+n
 
