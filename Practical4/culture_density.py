@@ -1,6 +1,6 @@
-#day 1
+#n:the number of days; n=1:day 1
 n=1
-#at 5% density
+#x: cell density; at 5% density
 x=5
 #repeat until the density passes 90%
 while x<90:
