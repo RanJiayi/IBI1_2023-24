@@ -13,5 +13,6 @@ activity=['Sleeping','Classes','Studying','TV','Music','other']
 plt.figure()
 #construct a pie chart
 plt.pie(time_spent,labels=activity,startangle=90)
+plt.title('The average day of a university student')
 plt.show()
 plt.clf()
