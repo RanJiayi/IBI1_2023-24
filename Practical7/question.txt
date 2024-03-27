@@ -1,6 +1,0 @@
-QUESTIONS: How has the relationship between the DALYs in China and the UK changed over time?
-
-the code to aswer the question: starts from line35
-
-The graph shows that China's DALYs were greater than those of the UK in 1990. Then both curves fall, but the curve representing the DALYs in China falls faster and approaches the curve representing the DALYs in the UK.
-It indicates that the number of DALYs in China was higher than in the UK in 1990, but the gap has narrowed over time, suggesting that they are becoming more similar.
