@@ -4,4 +4,4 @@ the code to aswer the question: starts from line35
 
 The graph shows that China's DALYs were greater than those of the UK in 1990. Then both curves fall, but the curve representing the DALYs in China falls faster and approaches the curve representing the DALYs in the UK.
 It indicates that the number of DALYs in China was higher than in the UK in 1990, but the gap has narrowed over time, suggesting that they are becoming more similar.
-This may be due to the economic development and the leading increased health awareness in China. 
+This is what I expected due to the economic development and the leading increased health awareness in China. 
