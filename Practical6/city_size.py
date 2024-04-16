@@ -2,10 +2,12 @@
 uk_cities=[0.56,0.62,0.04,9.7]
 #sort the population values for the UK
 uk_cities.sort()
+print('Sorted values for the populations of cities in the UK:',uk_cities)
 #create a list to store	the	population sizes for China
 chine_cities=[0.58,8.4,29.9,22.2]
 #sort the population values for China
 chine_cities.sort()
+print('Sorted values for the populations of cities in China:',chine_cities)
 
 #Import the graph module
 import matplotlib.pyplot as plt
