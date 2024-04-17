@@ -9,7 +9,9 @@ population=np.zeros((100,100))
 #choose a random point for where the outbreak happens
 outbreak=np.random.choice(range(100),2)
 population[outbreak[0],outbreak[1]]=1
-
+plt.imshow(population,cmap='viridis',interpolation='nearest')
+plt.show()
+plt.clf()
 #the infection probability upon contact
 BETA=0.3
 #the recovery probability
