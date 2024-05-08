@@ -2,6 +2,6 @@ The alighment score: HUMAN-RAT(3107)<HUMAN-MOUSE(3137)<MOUSE-RAT(3261)
 The percentage of identical amino acids: HUMAN-RAT(0.917)<HUMAN-MOUSE(0.925)<MOUSE-RAT(0.968)
 
 Higher alighment score and higher percentage of identical amino acids represent higher similarity. 
-1.MOUSE-RAT sequences have the highest alighment score and the highest percentage of identical amino acids, indicating that the mouse and rat sequences are most closely related。
-2.The alighment score and the percentage of identical amino acids: HUMAN-MOUSE>HUMAN-RAT, indicating that the human SLC6A4 gene sequence is more like that of the mouse
-3.The human SLC6A4 gene sequence is less like that of the rat, meaning that there are more variations. So the rat would be a better model organism for studying variation in the SLC6A4 gene in humans
+1.MOUSE-RAT sequences have the highest alighment score and the highest percentage of identical amino acids, indicating that the mouse and rat sequences are most closely related.
+2.The alighment score and the percentage of identical amino acids: HUMAN-MOUSE>HUMAN-RAT, indicating that the human SLC6A4 gene sequence is more like that of the mouse.
+3.The human SLC6A4 gene sequence is less like that of the rat, meaning that there are more variations. So the rat would be a better model organism for studying variation in the SLC6A4 gene in humans.
