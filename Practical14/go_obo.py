@@ -26,7 +26,7 @@ after_1=datetime.datetime.now()
 time_1=after_1-before_1
 print(f'The time taken for DOM to complete the task: {time_1}')
 #Generate a bar plot
-Ontology = ['molecular function','biological process','cellular_component']
+Ontology = ['molecular function','biological process','cellular component']
 Frequency = [molecular_function,biological_process,cellular_component]
 plt.bar(Ontology, Frequency, color=['steelblue'])
 plt.xlabel('Ontology')
@@ -80,7 +80,7 @@ after_2=datetime.datetime.now()
 time_2=after_2-before_2
 print(f'The time taken for DOM to complete the task: {time_2}')
 #Generate a bar plot
-Ontology = ['molecular function','biological process','cellular_component']
+Ontology = ['molecular function','biological process','cellular component']
 Frequency = [Handler.molecular_function,Handler.biological_process,Handler.cellular_component]
 plt.bar(Ontology, Frequency, color=['steelblue'])
 plt.xlabel('Ontology')
