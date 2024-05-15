@@ -64,21 +64,19 @@ class GOHandler(xml.sax.ContentHandler):
     def characters(self, content):
         if self.currentData == "namespace":
         	self.contentData += content
-			
 #Open the file go_obo.xml
 parser=xml.sax.make_parser()
 parser.setFeature(xml.sax.handler.feature_namespaces,0)
 Handler=GOHandler()
 parser.setContentHandler(Handler)
 parser.parse('go_obo.xml')
-print(molecular_function)
 print(f'The number of GO terms within molecular function: {Handler.molecular_function}\n\
 The number of GO terms within biological process: {Handler.biological_process}\n\
 The number of GO terms within cellular components: {Handler.cellular_component}')
 after_2=datetime.datetime.now()
 #calculate the time taken
 time_2=after_2-before_2
-print(f'The time taken for DOM to complete the task: {time_2}')
+print(f'The time taken for SAX to complete the task: {time_2}')
 #Generate a bar plot
 Ontology = ['molecular function','biological process','cellular component']
 Frequency = [Handler.molecular_function,Handler.biological_process,Handler.cellular_component]
