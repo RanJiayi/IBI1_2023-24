@@ -1,6 +1,6 @@
 Practical4
 
-culture_density.py
+culture_density.py：
 The feedback suggests a wrong explanation for "the number of days required to exceed 90% density" because I had started with day=1 to represent the first day, but forgot to exclude it in the holiday calculation. So I subtracted two (the first day and the last day) from the number of holidays instead of the previous one (the last day).
 
 
