@@ -3,6 +3,7 @@ import re
 
 #read the file
 import os
+#Please change it to the correct path before you run the code
 os.chdir("C:\\Users\\冉嘉忆\\OneDrive - International Campus, Zhejiang University\\桌面\\IBI\\new\\IBI1_2023-24\\文件")
 initial=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')
 #store the simplified sequence in a new file
@@ -17,7 +18,7 @@ for line in initial:
 		#extract sequence description containing the word ‘duplication’
 		if re.search('duplication',line):
 			duplication=True
-			gene_name=re.findall(r'>.+?_mRNA',line)
+			gene_name=re.findall(r'>.+?\s',line)
 			gene_name=''.join(str(i) for i in gene_name)
 			simplified_file.write(gene_name+'\n')
 		#skip the sequence description without the word ‘duplication’
