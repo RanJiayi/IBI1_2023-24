@@ -27,8 +27,14 @@ for line in transition_file:
 	#extract sequences containing the given repetitive element
 	if re.search(str(repetitive_sequence),line):
 		#count the number of instances
-		repeat=re.findall(str(repetitive_sequence),line)
-		number_instances=len(repeat)
+		number_instances=0
+		n=0
+		while n<=(len(line)-len(str(repetitive_sequence))):
+		    if line[n:n+len(str(repetitive_sequence))]==str(repetitive_sequence):
+		        number_instances+=1
+		        n+=1
+		    else:
+		        n+=1
 		#extract the gene name
 		gene_name=re.findall(r'>.+?\s',line)
 		gene_name=''.join(str(i) for i in gene_name)
@@ -43,3 +49,6 @@ for line in transition_file:
 repetitive_element=open(f'{repetitive_sequence}_duplicate_genes.fa')
 for line in repetitive_element:
 	print(line)
+
+
+
