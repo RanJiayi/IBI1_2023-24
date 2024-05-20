@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #import the file and read the content of it
-os.chdir("C:\\Users\\冉嘉忆\\OneDrive - International Campus, Zhejiang University\\桌面\\IBI\\new\\IBI1_2023-24")
+#Please change it to the correct path before you run the code
+os.chdir("C:\\Users\\冉嘉忆\\OneDrive - International Campus, Zhejiang University\\桌面\\IBI\\new\\IBI1_2023-24\\文件")
 dalys_data=pd.read_csv("dalys-rate-from-all-causes")
 #ROWS: start from the first row to the 100th row, print every 10th row; COLUMNS: the fourth column
 print(dalys_data.iloc[0:101:10,3])
