@@ -17,14 +17,15 @@ def score(seq_1,seq_2):
 	#Compare the two amino acid sequences
 	for i in range(len(seq_1)):
 		#find score
-		val=matrix[seq_1[i]][seq_2[i]]
+		value=matrix[seq_1[i]][seq_2[i]]
 		#sum scores
-		score+=val
+		score+=value
 	return score
 
 
 #read the file
 import os
+#Please change it to the correct path before you run the code
 os.chdir("C:\\Users\\冉嘉忆\\OneDrive - International Campus, Zhejiang University\\桌面\\IBI\\new\\IBI1_2023-24\\文件")
 file_1=open('SLC6A4_HUMAN.fa','r')
 file_2=open('SLC6A4_MOUSE.fa','r')
